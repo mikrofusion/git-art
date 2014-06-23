@@ -56,11 +56,11 @@ end
 
 def done_message(output_dir)
   "====================================================================\n" +
-  "Commits completed. A new git repo has been created at ./#{output_dir}.\n" +
-  "Run the following to push your git art to github:\n" +
-  "cd ./#{output_dir}\n" +
-  "git remote add origin <github repo>\n" +
-  "git push -u origin master"
+  "Commits completed. A new git repo has been created at './#{output_dir}'.\n" +
+  "Create a new repo on GitHub and then run the following:\n" +
+  "  cd ./#{output_dir}\n" +
+  "  git remote add origin <new github repo>\n" +
+  "  git push -u origin master"
 end
 
 output_dir = find_directory OUTPUT_BASE_DIR
