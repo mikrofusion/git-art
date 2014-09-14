@@ -33,7 +33,7 @@ def do_commit(output_file, date, c)
   `echo " " >> #{output_file}`
   `git add #{output_file}`
   date_str = "#{date.strftime('%a %d %b %Y')} 12:0#{c}:00 +0000"
-  message = "commit #{c + 1} on #{date.strftime('%a %d %b %Y')} by github.com/mikegroseclose/git-commit-art"
+  message = "commit #{c + 1} on #{date.strftime('%a %d %b %Y')} by github.com/mikrofusion/git-commit-art"
   `GIT_COMMITTER_DATE="#{date_str}" git commit --date "#{date_str}" -m "#{message}."`
 end
 

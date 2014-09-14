@@ -7,7 +7,7 @@
 ## Usage
 Clone the git-art repo locally:
 ```
-git clone https://github.com/mikegroseclose/git-art.git
+git clone https://github.com/mikrofusion/git-art.git
 ```
 
 From the git-art directory run the following:
@@ -41,6 +41,6 @@ Drop me a line on on [twitter] if you have any questions or comments.
 
 ## License
 
-[MIT](http://opensource.org/licenses/MIT) © [Mike Groseclose](//github.com/mikegroseclose)
+[MIT](http://opensource.org/licenses/MIT) © [Mike Groseclose](//github.com/mikrofusion)
 
 [twitter]: https://twitter.com/mikrofusion
